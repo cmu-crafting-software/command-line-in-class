@@ -24,4 +24,4 @@ What did the touch command do? When you look at your current directory, does the
 6) We have seen the use of >, but there is a similar operator >> which works slightly differently. We’ll learn about the differences between these two operators by printing some strings. We can use the echo command to print strings e.g. running `echo The echo command prints text` will output `The echo command prints text`. If you run `echo hello > testfile01.txt` and then `echo world >> testfile01.txt` what is in `testfile01.txt`?
 
 7) The `head` commandprints lines from the start of a file. `tail` is similar, but prints lines from the end of a file instead. Consider the file shell-lesson-data/exercise-data/animal-counts/animals.csv. After these commands, select the answer that corresponds to the file animals-subset.csv:
-`head -n 3 animals.csv > animals-subset.csv` and `tail -n 2 animals.csv >> animals-subset.csv`. What is the content of `animal-subset.csv?`
+`head -n 3 animals.csv > animals-subset.csv` and `tail -n 2 animals.csv >> animals-subset.csv`. What is the content of `animal-subset.csv`?
